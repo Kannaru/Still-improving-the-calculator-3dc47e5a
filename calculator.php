@@ -31,18 +31,19 @@
 
     switch ($berekening) {
     case "Add":
-            $eindnummer = $eerstenummer + $tweedenummer;
-            break;
+        $eindnummer = $eerstenummer + $tweedenummer;
+        break;
     case "Subtract":
-            $eindnummer = $eerstenummer - $tweedenummer;
-            break;
+        $eindnummer = $eerstenummer - $tweedenummer;
+        break;
     case "Multiply":
-            $eindnummer = $eerstenummer * $tweedenummer;
-            break;
+        $eindnummer = $eerstenummer * $tweedenummer;
+        break;
     case "Divide":
-            $eindnummer = $eerstenummer / $tweedenummer;
+        $eindnummer = $eerstenummer / $tweedenummer;
     case "Modulo":
-            $eindnummer = $eerstenummer % $tweedenummer;
+        $eindnummer = $eerstenummer % $tweedenummer;
+        break;  
     }
     echo $eindnummer;
     ?>
